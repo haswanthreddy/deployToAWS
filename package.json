@@ -1,0 +1,26 @@
+{
+  "name": "deploy",
+  "version": "1.0.0",
+  "description": "deploying to AWS ECS, with docker and CI/CD with github workflows",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haswanthreddy/deployToAWS.git"
+  },
+  "keywords": [],
+  "author": "Haswanth Reddy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haswanthreddy/deployToAWS/issues"
+  },
+  "homepage": "https://github.com/haswanthreddy/deployToAWS#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
+}
